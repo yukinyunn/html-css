@@ -1,0 +1,49 @@
+/* cssのリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.main-visual {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  width: 960px;
+  display: flex;  /*Flexboxの利用*/
+  justify-content: center; /*要素を横並びにして中央寄せ*/
+  margin: 0 auto;
+}
+
+.main_a {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+.main_b {
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+.main_c {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
